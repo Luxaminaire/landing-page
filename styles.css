@@ -1,0 +1,41 @@
+
+.logo-small {
+  background-color: #1F2937;  
+}
+.mega-head {
+    background-color: #1F2937;  
+}
+
+.hero{
+    font-size: 48px;
+    font-style: extra-bold;
+    color: #F9FAF8;
+    background-color: #1F2937
+}
+p {
+    color: #e5e7eb;
+    font-size: 24px;
+    
+}
+button {
+    background-color: #3882F6;
+
+}
+
+h2{
+    font-size: 36px;
+    font-style: extra-bold;
+    color:#1F2937;
+
+}
+
+h3{
+    background-color:#e5e7eb;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+
+
+
