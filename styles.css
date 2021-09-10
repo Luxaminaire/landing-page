@@ -1,21 +1,55 @@
+.main {
+    padding: 0px 200px 0px 200px;
+}
+
+.images {
+    float: right;
+    font-size: 12px;
+}
+
+.pictures {
+    padding: 0px 250px 100px 50px;
+    margin: 50px 50px;
+    vertical-align: top;
+    display: flex;
+    text-align: center;
+    width: 120px;
+}
+
+.caption {
+    width: 100px;
+    height: 100px;
+    padding: 0px 50px 0px 10px;
+}
 
 .logo-small {
   background-color: #1F2937;  
 }
-.mega-head {
-    background-color: #1F2937;  
+
+header {
+    background-color: #1F2937;
+    padding: 0px 200px 0px 200px;
 }
 
 .hero{
+    padding: 10px 200px 0px 200px;
+    /* margin: 0px;  */
     font-size: 48px;
     font-style: extra-bold;
     color: #F9FAF8;
-    background-color: #1F2937
+    background-color: #1F2937;
 }
 p {
-    color: #e5e7eb;
+    color: #1F2937;
     font-size: 24px;
     
+}
+img {
+    height: 50px;
+    width: 50px;
+    /* border-radius: 25px; */
+    border-color: #3882F6;
+    border-style: solid;
 }
 button {
     background-color: #3882F6;
@@ -36,6 +70,17 @@ h3{
     font-style: italic;
 }
 
+nav {
+    float: right;
+    padding: 10px;
+}
 
+body {
+    background-color: white;
+}
+
+footer {
+    padding: 0px 200px 0px 200px;
+}
 
 
