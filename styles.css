@@ -13,6 +13,8 @@
 body {
     background-color: white;
     justify-content: center;    
+    margin: 0px;
+    padding: 0px;
 }
 
 p {
@@ -31,14 +33,12 @@ p {
     background-color: #1F2937;
     display: flex;
     flex-direction: row;
-    gap: 16px;
+    gap: 102px;
     align-items: center;
     justify-content: center;
     text-align: left;
     padding-bottom: 40px;
-        border: 5px;
-    border-color: red;
-    border-style: solid;
+
 }
 .awesome{
     font-size: 48px;
@@ -69,9 +69,7 @@ p {
     align-items: center;
     justify-content: center;
         border: 5px;
-    border-color: red;
-    border-style: solid;
-    vertical-align: middle;
+
 }
 .images {
     height: 250px;
@@ -82,9 +80,7 @@ p {
     align-items: center;
     justify-content: center;
     border: 5px;
-    border-color: red;
-    border-style: solid;
-    vertical-align: middle;
+
 }
 .container {
     display: flex;
@@ -127,27 +123,34 @@ p {
 }
 .bottom{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #3882F6;
-    color:#e5e7eb;   
-    margin: 0px 700px;
-    
-    }
-.bottom-left{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: left;
-    align-items: left;
-    padding: 0px 200px 0px 200px;
-}
-.bottom-right{
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 0px 270px 0px 0px;
+    background-color: #e5e7eb; 
+    padding: 40px;  
+    }
+.bottom-box{
+    background-color: #3882f6;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    }
+.bottom-left{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    align-items: left;
+    padding: 0px 75px 0px 75px;
+}
+.bottom-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0px 75px 0px 75px;
 }
 .bottom-button{
     display: flex;
@@ -180,6 +183,10 @@ footer {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    flex: 1 5 auto;
+ 
 }
 /* *{
     border: 5px;
@@ -194,4 +201,7 @@ footer {
     border-color: #3882F6;
     border-style: solid;
     border-radius: 12px;
+}
+.caption{
+    color: #1F2937
 }
